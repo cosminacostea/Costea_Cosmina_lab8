@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql.local",
+      "connectionId": "Costea_Cosmina_lab8Context"
+    }
+  }
+}
