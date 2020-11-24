@@ -13,11 +13,9 @@ namespace Costea_Cosmina_lab8.Data
             : base(options)
         {
         }
-
         public DbSet<Costea_Cosmina_lab8.Models.Book> Book { get; set; }
-
         public DbSet<Costea_Cosmina_lab8.Models.Category> Category { get; set; }
-
+        public DbSet<Costea_Cosmina_lab8.Models.BookCategory> BookCategory { get; set; }
         public DbSet<Costea_Cosmina_lab8.Models.Publisher> Publisher { get; set; }
     }
 }

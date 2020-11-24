@@ -28,7 +28,7 @@ namespace Costea_Cosmina_lab8.Pages.Books
                 return NotFound();
             }
 
-            Book = await _context.Book.FirstOrDefaultAsync(m => m.ID == id);
+            Book = await _context.Book.Include(b => b.Publisher).FirstOrDefaultAsync(m => m.ID == id);
 
             if (Book == null)
             {

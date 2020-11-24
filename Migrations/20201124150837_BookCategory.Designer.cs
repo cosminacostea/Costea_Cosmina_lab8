@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Costea_Cosmina_lab8.Migrations
 {
     [DbContext(typeof(Costea_Cosmina_lab8Context))]
-    [Migration("20201123191603_BookCategory")]
+    [Migration("20201124150837_BookCategory")]
     partial class BookCategory
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
